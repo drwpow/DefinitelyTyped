@@ -1,4 +1,4 @@
-// For Library Version: 1.125.0
+// For Library Version: 1.129.0
 
 declare module "sap/ui/fl/library" {}
 
@@ -1504,17 +1504,31 @@ declare namespace sap {
   interface IUI5DefineDependencyNames {
     "sap/ui/fl/apply/_internal/changes/descriptor/app/AddAnnotationsToOData": undefined;
 
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/AddNewDataSource": undefined;
+
     "sap/ui/fl/apply/_internal/changes/descriptor/app/AddNewInbound": undefined;
+
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/AddNewOutbound": undefined;
+
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/AddTechnicalAttributes": undefined;
 
     "sap/ui/fl/apply/_internal/changes/descriptor/app/ChangeDataSource": undefined;
 
     "sap/ui/fl/apply/_internal/changes/descriptor/app/ChangeInbound": undefined;
 
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/ChangeOutbound": undefined;
+
     "sap/ui/fl/apply/_internal/changes/descriptor/app/RemoveAllInboundsExceptOne": undefined;
+
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/SetAch": undefined;
+
+    "sap/ui/fl/apply/_internal/changes/descriptor/app/SetDescription": undefined;
 
     "sap/ui/fl/apply/_internal/changes/descriptor/app/SetTitle": undefined;
 
     "sap/ui/fl/apply/_internal/changes/descriptor/fiori/SetAbstract": undefined;
+
+    "sap/ui/fl/apply/_internal/changes/descriptor/fiori/SetCloudDevAdaptationStatus": undefined;
 
     "sap/ui/fl/apply/_internal/changes/descriptor/fiori/SetRegistrationIds": undefined;
 
@@ -1549,6 +1563,8 @@ declare namespace sap {
     "sap/ui/fl/apply/_internal/controlVariants/URLHandler": undefined;
 
     "sap/ui/fl/apply/_internal/extensionPoint/Registry": undefined;
+
+    "sap/ui/fl/apply/_internal/flexObjects/AnnotationChange": undefined;
 
     "sap/ui/fl/apply/_internal/flexObjects/AppDescriptorChange": undefined;
 
@@ -1596,6 +1612,8 @@ declare namespace sap {
 
     "sap/ui/fl/apply/_internal/preprocessors/ControllerExtension": undefined;
 
+    "sap/ui/fl/apply/api/AnnotationChangeHandlerAPI": undefined;
+
     "sap/ui/fl/apply/api/ControlVariantApplyAPI": undefined;
 
     "sap/ui/fl/apply/api/DelegateMediatorAPI": undefined;
@@ -1609,6 +1627,10 @@ declare namespace sap {
     "sap/ui/fl/apply/api/UI2PersonalizationApplyAPI": undefined;
 
     "sap/ui/fl/changeHandler/Base": undefined;
+
+    "sap/ui/fl/changeHandler/BaseAddViaDelegate": undefined;
+
+    "sap/ui/fl/changeHandler/BaseRename": undefined;
 
     "sap/ui/fl/ChangePersistenceFactory": undefined;
 
@@ -1651,6 +1673,8 @@ declare namespace sap {
     "sap/ui/fl/support/_internal/getAllUIChanges": undefined;
 
     "sap/ui/fl/support/_internal/getChangeDependencies": undefined;
+
+    "sap/ui/fl/support/_internal/getFlexObjectInfos": undefined;
 
     "sap/ui/fl/support/_internal/getFlexSettings": undefined;
 
@@ -1704,9 +1728,11 @@ declare namespace sap {
 
     "sap/ui/fl/write/_internal/fieldExtensibility/SingleTenantABAPExtensibilityVariant": undefined;
 
+    "sap/ui/fl/write/_internal/flexState/changes/UIChangeManager": undefined;
+
     "sap/ui/fl/write/_internal/flexState/compVariants/CompVariantState": undefined;
 
-    "sap/ui/fl/write/_internal/flexState/FlexObjectState": undefined;
+    "sap/ui/fl/write/_internal/flexState/FlexObjectManager": undefined;
 
     "sap/ui/fl/write/_internal/flexState/UI2Personalization/UI2PersonalizationState": undefined;
 
