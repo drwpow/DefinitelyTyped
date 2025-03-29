@@ -1,8 +1,8 @@
-import rgb from "../rgb/definition";
-import { Rgb } from "../rgb/types";
-import convertA98ToXyz65 from "./convertA98ToXyz65";
-import convertXyz65ToA98 from "./convertXyz65ToA98";
-import { A98 } from "./types";
+import rgb from "../rgb/definition.js";
+import { Rgb } from "../rgb/types.js";
+import convertA98ToXyz65 from "./convertA98ToXyz65.js";
+import convertXyz65ToA98 from "./convertXyz65ToA98.js";
+import { A98 } from "./types.js";
 
 interface A98DefinitionMixin {
     mode: "a98";

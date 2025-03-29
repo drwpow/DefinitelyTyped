@@ -1,4 +1,4 @@
-import { Color } from "./common";
+import { Color } from "./common.js";
 
 export function luminance(color: Color | string): number;
 

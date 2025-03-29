@@ -1,4 +1,4 @@
-import { Color, Mode } from "./common";
+import { Color, Mode } from "./common.js";
 
 declare function differenceHueChroma(colorA: { h: number; c: number }, colorB: { h: number; c: number }): number;
 

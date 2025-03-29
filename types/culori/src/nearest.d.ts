@@ -1,5 +1,5 @@
-import { Color } from "./common";
-import { DiffFn } from "./difference";
+import { Color } from "./common.js";
+import { DiffFn } from "./difference.js";
 
 type PositiveNumber = number;
 

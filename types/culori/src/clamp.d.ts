@@ -1,4 +1,4 @@
-import { Color, FindColorByMode, GamutMode, Mode } from "./common";
+import { Color, FindColorByMode, GamutMode, Mode } from "./common.js";
 
 /**
  * Returns whether the color is in the sRGB gamut.

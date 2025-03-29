@@ -1,12 +1,12 @@
-import { averageAngle } from "../average";
-import { differenceHueSaturation } from "../difference";
-import { fixupAlpha } from "../fixup/alpha";
-import { fixupHueShorter } from "../fixup/hue";
-import { interpolatorLinear } from "../interpolate/linear";
-import convertHslToRgb from "./convertHslToRgb";
-import convertRgbToHsl from "./convertRgbToHsl";
-import parseHsl from "./parseHsl";
-import { Hsl } from "./types";
+import { averageAngle } from "../average.js";
+import { differenceHueSaturation } from "../difference.js";
+import { fixupAlpha } from "../fixup/alpha.js";
+import { fixupHueShorter } from "../fixup/hue.js";
+import { interpolatorLinear } from "../interpolate/linear.js";
+import convertHslToRgb from "./convertHslToRgb.js";
+import convertRgbToHsl from "./convertRgbToHsl.js";
+import parseHsl from "./parseHsl.js";
+import { Hsl } from "./types.js";
 
 declare const definition: {
     mode: "hsl";

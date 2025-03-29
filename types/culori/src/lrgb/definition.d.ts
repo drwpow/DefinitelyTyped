@@ -1,6 +1,6 @@
-import rgb from "../rgb/definition";
-import convertLrgbToRgb from "./convertLrgbToRgb";
-import convertRgbToLrgb from "./convertRgbToLrgb";
+import rgb from "../rgb/definition.js";
+import convertLrgbToRgb from "./convertLrgbToRgb.js";
+import convertRgbToLrgb from "./convertRgbToLrgb.js";
 
 interface LrgbDefinitionMixin {
     mode: "lrgb";

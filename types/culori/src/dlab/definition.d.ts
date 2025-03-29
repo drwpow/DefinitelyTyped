@@ -1,8 +1,8 @@
-import { fixupAlpha } from "../fixup/alpha";
-import { interpolatorLinear } from "../interpolate/linear";
-import { Lab65 } from "../lab65/types";
-import { Rgb } from "../rgb/types";
-import { Dlab } from "./types";
+import { fixupAlpha } from "../fixup/alpha.js";
+import { interpolatorLinear } from "../interpolate/linear.js";
+import { Lab65 } from "../lab65/types.js";
+import { Rgb } from "../rgb/types.js";
+import { Dlab } from "./types.js";
 
 declare const definition: {
     mode: "dlab";

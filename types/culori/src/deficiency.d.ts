@@ -1,4 +1,4 @@
-import { Color } from "./common";
+import { Color } from "./common.js";
 
 type FilterDeficiencyFactory = (severity: number) => <C extends Color>(color: C) => C;
 

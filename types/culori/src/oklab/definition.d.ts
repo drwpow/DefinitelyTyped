@@ -1,9 +1,9 @@
-import convertLrgbToOklab from "./convertLrgbToOklab";
-import convertOklabToLrgb from "./convertOklabToLrgb";
-import convertOklabToRgb from "./convertOklabToRgb";
-import convertRgbToOklab from "./convertRgbToOklab";
+import convertLrgbToOklab from "./convertLrgbToOklab.js";
+import convertOklabToLrgb from "./convertOklabToLrgb.js";
+import convertOklabToRgb from "./convertOklabToRgb.js";
+import convertRgbToOklab from "./convertRgbToOklab.js";
 
-import lab from "../lab/definition";
+import lab from "../lab/definition.js";
 
 interface OklabDefinitionMixin {
     mode: "oklab";

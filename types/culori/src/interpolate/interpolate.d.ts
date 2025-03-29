@@ -1,5 +1,5 @@
-import { Color, FindColorByMode, Mode, OverridesObject, TakeColorChannels } from "../common";
-import { MapFn } from "../map";
+import { Color, FindColorByMode, Mode, OverridesObject, TakeColorChannels } from "../common.js";
+import { MapFn } from "../map.js";
 
 type ColorPosition = [Color | string, number];
 type Position = number;

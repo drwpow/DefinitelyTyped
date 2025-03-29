@@ -1,5 +1,5 @@
-import named from "../colors/named";
-import { Color } from "../common";
+import named from "../colors/named.js";
+import { Color } from "../common.js";
 
 declare function parseNamed(color: keyof typeof named): Color;
 

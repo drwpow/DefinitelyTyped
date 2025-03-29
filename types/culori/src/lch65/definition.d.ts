@@ -1,8 +1,8 @@
-import { Lab65 } from "../lab65/types";
-import lch from "../lch/definition";
-import { Lch } from "../lch/types";
-import { Rgb } from "../rgb/types";
-import { Lch65 } from "./types";
+import { Lab65 } from "../lab65/types.js";
+import lch from "../lch/definition.js";
+import { Lch } from "../lch/types.js";
+import { Rgb } from "../rgb/types.js";
+import { Lch65 } from "./types.js";
 
 interface Lch65DefinitionMixin {
     mode: "lch65";

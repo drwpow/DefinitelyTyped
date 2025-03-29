@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "module": "node16",
+        "moduleResolution": "nodenext",
         "lib": [
-            "es6"
+            "ESNext"
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,

@@ -1,10 +1,10 @@
-import rgb from "../rgb/definition";
+import rgb from "../rgb/definition.js";
 
-import convertRec2020ToXyz65 from "./convertRec2020ToXyz65";
-import convertXyz65ToRec2020 from "./convertXyz65ToRec2020";
+import convertRec2020ToXyz65 from "./convertRec2020ToXyz65.js";
+import convertXyz65ToRec2020 from "./convertXyz65ToRec2020.js";
 
-import { Rgb } from "../rgb/types";
-import { Rec2020 } from "./types";
+import { Rgb } from "../rgb/types.js";
+import { Rec2020 } from "./types.js";
 
 interface Rec2020DefinitionMixin {
     mode: "rec2020";

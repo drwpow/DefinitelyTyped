@@ -1,7 +1,7 @@
-import lch from "../lch/definition";
-import { Oklab } from "../oklab/types";
-import { Rgb } from "../rgb/types";
-import { Oklch } from "./types";
+import lch from "../lch/definition.js";
+import { Oklab } from "../oklab/types.js";
+import { Rgb } from "../rgb/types.js";
+import { Oklch } from "./types.js";
 
 interface OklchDefinitionMixin {
     mode: "oklch";
